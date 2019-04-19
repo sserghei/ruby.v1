@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+ruby '2.6.1'
+gem 'sinatra'
+gem 'rest-client'
+
+group :test, :development do
+  gem 'pry-byebug'
+end
